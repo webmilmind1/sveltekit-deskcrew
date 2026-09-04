@@ -1,0 +1,62 @@
+{
+  "name": "@deskcrew/sveltekit",
+  "version": "1.0.1",
+  "description": "SvelteKit server hook that adds the DeskCrew support widget (live chat, AI answers from your knowledge base, a help center) to every page.",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "svelte-kit",
+    "hooks",
+    "vite",
+    "support",
+    "helpdesk",
+    "help desk",
+    "customer support",
+    "live chat",
+    "chat widget",
+    "support widget",
+    "ai chat",
+    "ai support",
+    "ticketing",
+    "support tickets",
+    "knowledge base",
+    "deskcrew"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmilmind1/sveltekit-deskcrew.git"
+  },
+  "homepage": "https://deskcrew.io/integrations/sveltekit",
+  "bugs": {
+    "url": "https://github.com/webmilmind1/sveltekit-deskcrew/issues",
+    "email": "hello@deskcrew.io"
+  },
+  "author": "DeskCrew <hello@deskcrew.io> (https://deskcrew.io)",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "build-tag.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
